@@ -108,6 +108,46 @@
   display: none;
 }
 
+/* ? Styles banner section */
+
+.banner-section {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* border: 1px solid; */
+}
+
+.banner-text-container {
+  /* min-width: 200px; */
+}
+
+.banner-title {
+  font-size: 3.5rem;
+}
+
+.banner-description {
+  font-size: 1.25rem;
+  margin: 24px 0px;
+}
+
+.secondary-button {
+  background-color: black;
+}
+
+.banner-title span:nth-child(1) {
+  color: orange;
+}
+
+.banner-title span:nth-child(2) {
+  color: skyblue;
+}
+
 /*! Responsive styles  */
 
 @media screen and (max-width: 576px) {
@@ -130,7 +170,6 @@
     display: block;
   }
 
-  header,
   body {
     /* border: 1px solid; */
     padding: 2px 4px;
