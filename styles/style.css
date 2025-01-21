@@ -45,10 +45,11 @@
   font-style: normal;
 }
 
-.raleway-regular {
+.raleway-medium {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-weight: 500;
 }
 
 /* ? styles nav section */
@@ -164,7 +165,6 @@ body {
 /* ? styles curriculumn section */
 .curriculumn-section {
   width: 80vw;
-  height: 50vh;
   margin: 0 auto;
   background-image: url("../assets/bg.png");
   background-repeat: repeat;
@@ -275,6 +275,10 @@ body {
   height: 60px; */
 }
 
+.curriculumn-container-button a {
+  text-decoration: none;
+}
+
 .curriculumn-container-button img {
   /* border: 1px solid; */
   display: inline-block;
@@ -282,9 +286,89 @@ body {
   height: 60px;
 }
 
+/* ? styles stories section */
+.stories-section {
+  background-image: url("../assets/bg.png");
+  background-repeat: repeat;
+  background-position: top;
+}
+
+.stories-title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 80px 0px;
+}
+
+.stories-card-flex-container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.main-card-image {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  /* border: 1px solid; */
+  overflow: hidden;
+}
+
+.main-card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-card-title,
+.main-card-description {
+  margin-top: 30px;
+}
+
+.inline-date-btn button {
+  color: skyblue;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.main-stories-card {
+  position: relative;
+}
+
+.main-stories-card .inline-date-btn button {
+  background-color: skyblue;
+  color: white;
+  position: absolute;
+  /* transform: translate(130%, -50%); */
+  top: 62%;
+  left: 35%;
+}
+
+.main-card-title {
+  font-size: 1.5rem;
+}
+
+.main-card-title,
+.main-card-description {
+  /* padding: 0px 15px; */
+  padding: 0px 25px;
+}
+
+.main-card-description {
+  font-size: 1rem;
+  color: #666666;
+  line-height: 28px;
+}
+
+.multi-stories-grid-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
 .hide {
   display: none;
 }
+
 /*! Responsive styles  */
 
 @media screen and (max-width: 576px) {
