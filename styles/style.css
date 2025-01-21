@@ -288,6 +288,7 @@ hr {
       rgba(254, 163, 1, 0.3) 100%
     ),
     url("../assets/bg.png");
+  height: 800px;
 }
 
 .stories-title {
@@ -414,6 +415,70 @@ hr {
 .tertiary-button {
   background-color: black;
 }
+
+/* ?Styles footer section */
+
+.footer-section {
+  background-color: #01acfd;
+  height: 300px;
+}
+
+.footer-container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  /* gap: 10rem; */
+}
+
+.footer-title {
+  color: #ffffff;
+}
+
+.footer-logo-title {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.footer-logo-title-description {
+  max-width: 300px;
+}
+
+.footer-description {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 35px;
+}
+
+.footer-about {
+  color: #ffffff;
+}
+
+.footer-about h5 {
+  font-size: 1.1rem;
+}
+
+.footer-about li {
+  list-style-type: none;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.social-media-title {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.social-media-icon {
+  margin-top: 32px;
+}
+
+.social-media-icon a {
+  text-decoration: none;
+}
+
 .hide {
   display: none;
 }
@@ -483,6 +548,10 @@ hr {
     display: none;
   }
 
+  .stories-section {
+    height: 550px;
+  }
+
   .stories-title {
     font-size: 1.8rem;
     margin: 40px 0px;
@@ -512,4 +581,19 @@ hr {
   .multi-card-title {
     font-size: 9px;
   }
+
+  .footer-section {
+    height: 600px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-about h5,
+  .social-media-title {
+    margin-top: 32px;
+  }
 }
+
+/* todo: 1.footer section logo color unmatched 2. adjust all the section width to 95vw */
