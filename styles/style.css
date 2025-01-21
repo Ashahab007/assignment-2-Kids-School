@@ -130,10 +130,6 @@ hr {
   /* border: 1px solid; */
 }
 
-.banner-text-container {
-  /* min-width: 200px; */
-}
-
 .banner-title {
   font-size: 3.5rem;
 }
@@ -157,9 +153,6 @@ hr {
 
 .banner-title .span-2 {
   color: skyblue;
-}
-
-body {
 }
 
 /* ? styles curriculumn section */
@@ -413,6 +406,14 @@ body {
   color: #ffffff;
 }
 
+.stories-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tertiary-button {
+  background-color: black;
+}
 .hide {
   display: none;
 }
@@ -480,5 +481,35 @@ body {
 
   .curriculumn-container-button {
     display: none;
+  }
+
+  .stories-title {
+    font-size: 1.8rem;
+    margin: 40px 0px;
+  }
+
+  .main-stories-card {
+    display: none;
+  }
+
+  .multi-stories-grid-card {
+    gap: 5px;
+  }
+
+  .multi-stories-card {
+    border-radius: 5px;
+  }
+
+  .inline-date-btn button {
+    width: 105px;
+    position: absolute;
+    top: 86px;
+    left: 23px;
+    font-size: 9px;
+    padding: 4px 0px;
+  }
+
+  .multi-card-title {
+    font-size: 9px;
   }
 }
