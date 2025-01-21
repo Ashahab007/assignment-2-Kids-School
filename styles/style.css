@@ -179,7 +179,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 80px;
   text-align: center;
   margin-top: 50px;
 }
@@ -192,7 +192,7 @@ body {
 .card {
   /* border: 1px solid; */
   border-radius: 15px;
-  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.111);
+  box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.111);
 }
 
 .card:nth-child(1) {
