@@ -287,10 +287,14 @@ body {
 }
 
 /* ? styles stories section */
+
 .stories-section {
-  background-image: url("../assets/bg.png");
-  background-repeat: repeat;
-  background-position: top;
+  background: linear-gradient(
+      183deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(254, 163, 1, 0.3) 100%
+    ),
+    url("../assets/bg.png");
 }
 
 .stories-title {
@@ -332,6 +336,8 @@ body {
 
 .main-stories-card {
   position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
 .main-stories-card .inline-date-btn button {
@@ -339,7 +345,7 @@ body {
   color: white;
   position: absolute;
   /* transform: translate(130%, -50%); */
-  top: 62%;
+  top: 60%;
   left: 35%;
 }
 
@@ -363,6 +369,48 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+}
+
+.multi-stories-card {
+  border-radius: 16px;
+  /* border: 1px solid; */
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.multi-card-image img {
+  width: 100%;
+}
+
+.multi-card-title {
+  text-align: center;
+  padding: 15px 10px;
+  /* font-size: 1rem; */
+}
+
+.inline-date-btn button {
+  width: 160px;
+  position: absolute;
+  top: 190px;
+  left: 90px;
+}
+
+.multi-stories-card:nth-child(1) button {
+  background-color: #95b226;
+  color: #ffffff;
+}
+.multi-stories-card:nth-child(2) button {
+  background-color: #5d58f0;
+  color: #ffffff;
+}
+.multi-stories-card:nth-child(3) button {
+  color: #ffffff;
+  background-color: #95b226;
+}
+.multi-stories-card:nth-child(4) button {
+  background-color: #95b226;
+  color: #ffffff;
 }
 
 .hide {
