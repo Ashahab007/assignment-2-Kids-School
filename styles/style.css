@@ -159,8 +159,6 @@ hr {
 }
 
 body {
-  background-image: url("../assets/bg.png");
-  background-repeat: repeat;
 }
 
 /* ? styles curriculumn section */
@@ -168,10 +166,9 @@ body {
   width: 80vw;
   height: 50vh;
   margin: 0 auto;
-  /* background-attachment: fixed; */
+  background-image: url("../assets/bg.png");
+  background-repeat: repeat;
   background-position: top;
-  /* border: 1px solid; */
-  /* background-image: url("../assets/bg.png"); */
 }
 
 .curriculumn-container {
@@ -195,22 +192,31 @@ body {
 .card {
   /* border: 1px solid; */
   border-radius: 15px;
-  box-shadow: 1px 2px 4px gray;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.111);
 }
 
 .card:nth-child(1) {
-  /* background-color: #5d58ef; */
-  background-image: linear-gradient(rgba(222, 245, 255, 0.811) 20%, white 80%);
+  background: linear-gradient(
+    to bottom,
+    rgba(222, 245, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 20%
+  );
 }
 
 .card:nth-child(2) {
-  /* background-color: #5d58ef; */
-  background-image: linear-gradient(rgba(255, 244, 220, 0.834) 20%, white 80%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 244, 220, 1) 0%,
+    rgba(255, 255, 255, 1) 20%
+  );
 }
 
 .card:nth-child(3) {
-  /* background-color: #5d58ef; */
-  background-image: linear-gradient(hsla(266, 100%, 95%, 0.867) 20%, white 80%);
+  background: linear-gradient(
+    to bottom,
+    rgba(241, 230, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 20%
+  );
 }
 
 .card-image {
@@ -240,16 +246,19 @@ body {
   border: none;
   color: #64c8ff;
   padding: 30px 0px;
+  background-color: white;
 }
 .card:nth-child(2) button {
   border: none;
   color: #f0aa00;
   padding: 30px 0px;
+  background-color: white;
 }
 .card:nth-child(3) button {
   border: none;
   color: #8700ff;
   padding: 30px 0px;
+  background-color: white;
 }
 
 .card-image,
@@ -279,11 +288,6 @@ body {
 /*! Responsive styles  */
 
 @media screen and (max-width: 576px) {
-  /* body {
-    border: 1px solid;
-    padding: 2px 4px;
-  } */
-
   .brand-title,
   .brand-menu,
   .primary-button {
@@ -332,5 +336,17 @@ body {
   .secondary-button {
     width: 100px;
     height: 50px;
+  }
+
+  .curriculumn-card-container {
+    flex-direction: column;
+  }
+
+  .curriculumn-title {
+    font-size: 26px;
+  }
+
+  .curriculumn-container-button {
+    display: none;
   }
 }
