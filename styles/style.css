@@ -108,6 +108,12 @@
   display: none;
 }
 
+hr {
+  border: 0.5px solid orange;
+  opacity: 0.3;
+  margin-top: 12px;
+  display: none;
+}
 /* ? Styles banner section */
 
 .banner-section {
@@ -144,17 +150,33 @@
   color: orange;
 }
 
-.banner-title span:nth-child(2) {
+/* .banner-title span:nth-child(2) {
+  color: skyblue;
+} */
+
+.banner-title .span-2 {
   color: skyblue;
 }
 
+.hide {
+  display: none;
+}
 /*! Responsive styles  */
 
 @media screen and (max-width: 576px) {
+  body {
+    /* border: 1px solid; */
+    padding: 2px 4px;
+  }
+
   .brand-title,
   .brand-menu,
-  .btn {
+  .primary-button {
     display: none;
+  }
+
+  hr {
+    display: block;
   }
 
   .brand-logo {
@@ -170,8 +192,31 @@
     display: block;
   }
 
-  body {
-    /* border: 1px solid; */
-    padding: 2px 4px;
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-text-container .banner-title {
+    font-size: 10vw;
+  }
+
+  .banner-text-container {
+    order: 2;
+    text-align: center;
+  }
+
+  .banner-image-container {
+    order: 1;
+  }
+
+  .banner-image-container img {
+    width: 90vw;
+    /* height: 0vw; */
+  }
+
+  .secondary-button {
+    width: 100px;
+    height: 50px;
+    font-size: ;
   }
 }
