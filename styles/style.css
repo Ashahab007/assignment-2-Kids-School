@@ -55,7 +55,7 @@
 
 .nav-section {
   display: flex;
-  max-width: 1160px;
+  max-width: 80vw;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -117,7 +117,7 @@ hr {
 /* ? Styles banner section */
 
 .banner-section {
-  max-width: 1160px;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
@@ -158,16 +158,44 @@ hr {
   color: skyblue;
 }
 
+body {
+}
+
+/* ? styles curriculumn section */
+.curriculumn-section {
+  width: 80vw;
+  height: 50vh;
+  margin: 0 auto;
+  /* background-attachment: fixed; */
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  /* border: 1px solid; */
+  /* background-image: url("../assets/bg.png"); */
+}
+
+.curriculumn-container {
+  /* border: 1px solid; */
+  margin-top: 100px;
+}
+.curriculumn-card-container {
+  display: flex;
+}
+
+.curriculumn-title {
+  font-size: 3vw;
+}
+
 .hide {
   display: none;
 }
 /*! Responsive styles  */
 
 @media screen and (max-width: 576px) {
-  body {
-    /* border: 1px solid; */
+  /* body {
+    border: 1px solid;
     padding: 2px 4px;
-  }
+  } */
 
   .brand-title,
   .brand-menu,
@@ -210,13 +238,12 @@ hr {
   }
 
   .banner-image-container img {
-    width: 90vw;
+    width: 80vw;
     /* height: 0vw; */
   }
 
   .secondary-button {
     width: 100px;
     height: 50px;
-    font-size: ;
   }
 }
