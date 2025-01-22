@@ -554,12 +554,17 @@ hr {
     font-size: 26px;
   }
 
+  .card-title {
+    font-size: 1.2rem;
+  }
+
   .curriculumn-container-button {
     display: none;
   }
 
   .stories-section {
     height: 550px;
+    margin-top: 80px;
   }
 
   .stories-title {
