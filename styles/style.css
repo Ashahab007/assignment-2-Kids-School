@@ -587,15 +587,11 @@ hr {
     gap: 5px;
   }
 
-  .multi-stories-card {
-    border-radius: 5px;
-  }
-
   .inline-date-btn button {
     width: 105px;
     position: absolute;
-    top: 130px;
-    left: 65px;
+    top: 131.5px;
+    left: 60px;
     font-size: 9px;
     padding: 4px 0px;
   }
