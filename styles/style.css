@@ -409,7 +409,7 @@ hr {
 
 .stories-button {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .tertiary-button {
@@ -582,8 +582,8 @@ hr {
   .inline-date-btn button {
     width: 105px;
     position: absolute;
-    top: 86px;
-    left: 23px;
+    top: 130px;
+    left: 65px;
     font-size: 9px;
     padding: 4px 0px;
   }
@@ -591,11 +591,6 @@ hr {
   .multi-card-title {
     font-size: 9px;
   }
-
-  /* .tertiary-button {
-    width: 100px;
-    height: 50px;
-  } */
 
   .footer-section {
     height: 600px;
@@ -620,4 +615,4 @@ hr {
   }
 }
 
-/* todo: 1.footer section logo color unmatched 2. adjust all the section width to 95vw 3. Standard curriculumn section: arrow buttons with some hovering effect*/
+/* todo: 3. Standard curriculumn section: arrow buttons with some hovering effect*/
