@@ -277,6 +277,15 @@ hr {
   display: inline-block;
   width: 60px;
   height: 60px;
+  transition: transform 0.1s;
+}
+
+.curriculumn-container-button a:nth-child(1) img:hover {
+  transform: translateX(-10px);
+}
+
+.curriculumn-container-button a:nth-child(2) img:hover {
+  transform: translateX(10px);
 }
 
 /* ? styles stories section */
@@ -338,7 +347,6 @@ hr {
   background-color: skyblue;
   color: white;
   position: absolute;
-  /* transform: translate(130%, -50%); */
   top: 60%;
   left: 35%;
 }
@@ -438,7 +446,6 @@ hr {
 
 .footer-logo-title {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -619,5 +626,3 @@ hr {
     height: 20px;
   }
 }
-
-/* todo: 3. Standard curriculumn section: arrow buttons with some hovering effect*/
